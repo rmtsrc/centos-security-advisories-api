@@ -1,0 +1,9 @@
+{
+  "name": "centos-security-advisories-api",
+  "version": "0.0.1",
+  "description": "A RESTful API which provides CentOS Security Advisory data in JSON format from: https://lists.centos.org/pipermail/centos-announce/",
+  "order": [
+    "ListGrouped",
+    "GroupedByOsPackage"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "centos-security-advisories-api",
+  "version": "0.0.1",
+  "description": "A RESTful API which provides CentOS Security Advisory data in JSON format from: https://lists.centos.org/pipermail/centos-announce/",
+  "main": "src/server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node src/server.js",
+    "test": "node_modules/.bin/mocha --recursive",
+    "precoverage": "npm install",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --recursive && node_modules/.bin/istanbul report cobertura",
+    "postcoverage": "node_modules/.bin/snyk test",
+    "apidoc": "node_modules/.bin/apidoc -i src/ -o apidoc/"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "CentOS",
+    "Security",
+    "REST"
+  ],
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "lodash": "^4.6.0",
+    "moment": "^2.11.2",
+    "pg-promise": "^3.2.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "apidoc": "^0.15.1",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.8.1",
+    "sinon": "^1.17.3",
+    "snyk": "^1.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sebflipper/centos-security-advisories-api.git"
+  },
+  "author": "Seb Flippence",
+  "license": "ISC"
+}

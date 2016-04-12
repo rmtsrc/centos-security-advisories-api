@@ -1,0 +1,20 @@
+# Running
+# $ docker-compose up
+postgres:
+  image: postgres:9.5
+  ports:
+    - 5432:5432
+  environment:
+    - POSTGRES_PASSWORD
+centosSecurityAdvisories:
+  image: sebflipper/centos-security-advisories-api
+  volumes:
+    - .:/usr/src/centos-security-advisories-api
+  command: bash -c "node_modules/.bin/nodemon -L src/server.js"
+  ports:
+    - 3000
+  links:
+    - postgres:postgres
+  environment:
+    - VIRTUAL_HOST=centos-security-advisories-api.localhost
+    - POSTGRES_PASSWORD

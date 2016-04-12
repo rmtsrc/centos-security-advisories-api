@@ -1,0 +1,17 @@
+# Running
+# $ docker-compose up
+postgres:
+  image: postgres:9.5
+  environment:
+    - POSTGRES_PASSWORD
+centosSecurityAdvisories:
+  image: sebflipper/centos-security-advisories-api
+  volumes:
+    - .:/usr/src/centos-security-advisories-api
+  ports:
+    - 3000
+  links:
+    - postgres:postgres
+  environment:
+    - VIRTUAL_HOST=centos-security-advisories-api.localhost
+    - POSTGRES_PASSWORD

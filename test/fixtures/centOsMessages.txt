@@ -1,0 +1,72 @@
+From johnny at centos.org  Mon Feb  1 10:06:38 2016
+From: johnny at centos.org (Johnny Hughes)
+Date: Mon, 1 Feb 2016 10:06:38 +0000
+Subject: [CentOS-announce] CESA-2016:0082 Important CentOS 6 qemu-kvm
+	Security Update
+Message-ID: <20160201100638.GA48502@n04.lon1.karan.org>
+
+
+CentOS Errata and Security Advisory 2016:0082 Important
+
+Upstream details at : https://rhn.redhat.com/errata/RHSA-2016-0082.html
+
+The following updated files have been uploaded and are currently
+syncing to the mirrors: ( sha256sum Filename )
+
+i386:
+a1f7d969256f40bceda80f8b528483daa4c46ffd1aa161d688b5213e82534728  qemu-guest-agent-0.12.1.2-2.479.el6_7.4.i686.rpm
+
+x86_64:
+1e0bbdb48082401bf939242e8365ed87d978d810461fd5f5f8a07fb27cc68908  qemu-guest-agent-0.12.1.2-2.479.el6_7.4.x86_64.rpm
+5659db7806844d947e48a239a10e171bfe614f6ec55e41dc4456bbf681ed93a3  qemu-img-0.12.1.2-2.479.el6_7.4.x86_64.rpm
+02c1fb0cf175af0ef966c9bdba504598dcc296acd84943e84c6950b660119858  qemu-kvm-0.12.1.2-2.479.el6_7.4.x86_64.rpm
+3a706f6a6c9dd68d53403d9bf28e0460d166ccb14b5e236cb3a570fed8981945  qemu-kvm-tools-0.12.1.2-2.479.el6_7.4.x86_64.rpm
+
+Source:
+15dd53d31a04e2fbff8ed17825a00a8db774e4b765d21cb8e425dfa7f420e1ed  qemu-kvm-0.12.1.2-2.479.el6_7.4.src.rpm
+
+
+
+--
+Johnny Hughes
+CentOS Project { http://www.centos.org/ }
+irc: hughesjr, #centos at irc.freenode.net
+Twitter: @JohnnyCentOS
+
+
+From johnny at centos.org  Mon Feb  1 10:07:16 2016
+From: johnny at centos.org (Johnny Hughes)
+Date: Mon, 1 Feb 2016 10:07:16 +0000
+Subject: [CentOS-announce] CESA-2016:0083 Important CentOS 7 qemu-kvm
+	Security Update
+Message-ID: <20160201100716.GA48601@n04.lon1.karan.org>
+
+
+CentOS Errata and Security Advisory 2016:0083 Important
+
+Upstream details at : https://rhn.redhat.com/errata/RHSA-2016-0083.html
+
+The following updated files have been uploaded and are currently
+syncing to the mirrors: ( sha256sum Filename )
+
+x86_64:
+4b32c17ff1beedcb1f6061718d320fabefdfbc097c158d4b1dae708fd42fdcea  libcacard-1.5.3-105.el7_2.3.i686.rpm
+e67108224ae1a48a7e3fe50c844eb72cbb1f2577e14a8b4125223a7733fae0d1  libcacard-1.5.3-105.el7_2.3.x86_64.rpm
+d87a6e35540834492782b7b8912a4585aa1aed9bc8e8be2411869ac629992b2e  libcacard-devel-1.5.3-105.el7_2.3.i686.rpm
+de52616bc23aa304b8e5754dbd01ea01885be400a7c1971f175a71a4c319c8e2  libcacard-devel-1.5.3-105.el7_2.3.x86_64.rpm
+9d5121b15522703d568ef24aa6445d70aa25cce27bff49c94ebebe0d484b461e  libcacard-tools-1.5.3-105.el7_2.3.x86_64.rpm
+f6b81452aa1929447d9bc9b1801276e11c20f356a5fffff4817994da23073ce6  qemu-img-1.5.3-105.el7_2.3.x86_64.rpm
+21eaddeefef89775defa32724cb48d501184212b8d05d128a3c83911c1fc2099  qemu-kvm-1.5.3-105.el7_2.3.x86_64.rpm
+89bb7aa5f7b8d0ed361b7b9090f7a3a508213829237da9e39b3a1d7a674b4fcc  qemu-kvm-common-1.5.3-105.el7_2.3.x86_64.rpm
+eb6f93064a64451b608d32f292e94fad18c53a16790507fe2d97bf1d0b78e006  qemu-kvm-tools-1.5.3-105.el7_2.3.x86_64.rpm
+
+Source:
+f963af3a6d471d8b82c5afef2fc76ef4f1dd3985e10ceafe2b04e04ef1571bf4  qemu-kvm-1.5.3-105.el7_2.3.src.rpm
+
+
+
+--
+Johnny Hughes
+CentOS Project { http://www.centos.org/ }
+irc: hughesjr, #centos at irc.freenode.net
+Twitter: @JohnnyCentOS

@@ -1,0 +1,12 @@
+# Running
+# $ docker-compose up
+postgres:
+  image: postgres:9.5
+  environment:
+    - POSTGRES_PASSWORD
+centosSecurityAdvisories:
+  image: sebflipper/centos-security-advisories-api
+  links:
+    - postgres:postgres
+  environment:
+    - POSTGRES_PASSWORD
